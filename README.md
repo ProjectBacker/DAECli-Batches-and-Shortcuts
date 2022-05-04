@@ -23,3 +23,6 @@ How to uninstall?
 That's easy just delete the folder called DAECLI from your documents and remove the DAE-CLI from your desktop.
 
 Like anything in this world this program is offered as-is read the files don't be shy to ask questions about it one should never fully trust a program 100% every machine is different. Good luck and have fun.
+
+
+Icons we're generated based on Images owned by (c)Deep Art Effects for interface Fair Use to help the community grow as for everything else here the code is free to use for whatever you want.
