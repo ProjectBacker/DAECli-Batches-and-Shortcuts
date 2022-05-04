@@ -28,6 +28,6 @@ Like anything in this world this program is offered as-is read the files don't b
 
 Icons we're generated based on Images owned by (c)Deep Art Effects for interface Fair Use to help the community grow as for everything else here the code is free to use for whatever you want.
 
-IMPORTANT INFORMATION ON THIS BUILD THE DEEPARTCLI.EXE NEEDS TO BE INSIDE SOMEWHERE IN THE C:\USERS (Could be on your desktop) I will figure out a way to scan all the drives or give you a variable option to enter your own path.
+IMPORTANT INFORMATION ON THIS BUILD THE DEEPARTEFFECTSCLI.EXE NEEDS TO BE INSIDE SOMEWHERE IN THE C:\USERS (Could be on your desktop) I will figure out a way to scan all the drives or give you a variable option to enter your own path for now if the Deeparteffectscli.exe is not in the path of c:\users the installation will stop.
 
 A problem was reported to me (Thanks Nigel) in regards to the batch file being locked if you right click the setup you can unlock it also unlock the generate.bat file I will merge both inside the setup.bat to avoid further issues. (Files have been patched the generate.bat is now intergrated inside the setup.bat so only one file to unlock.
