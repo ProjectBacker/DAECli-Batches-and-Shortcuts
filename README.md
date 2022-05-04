@@ -9,6 +9,7 @@ Requirements?
 On my machine Windows 10 pro 64 bits english with a registered version of Deep Art Effects works fine. There shouldn't be any issues with any version of Windows 10.
 
 How to install?
+Click on top the green button Code - Download zip
 Extract the zip file you have downloaded from this project (No specific location requried)
 Edit generate.bat top set lines for changing the defaults else wise just start the setup.bat what this will do it will create custom batch files setup for your computer configuration and create a folder of shortcuts on the desktop (In which afterwards you can move, delete, keep what you want) to drag your images onto.
 
