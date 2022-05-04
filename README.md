@@ -26,3 +26,7 @@ Like anything in this world this program is offered as-is read the files don't b
 
 
 Icons we're generated based on Images owned by (c)Deep Art Effects for interface Fair Use to help the community grow as for everything else here the code is free to use for whatever you want.
+
+IMPORTANT INFORMATION ON THIS BUILD THE DEEPARTCLI.EXE NEEDS TO BE INSIDE SOMEWHERE IN THE C:\USERS (Could be on your desktop)
+
+A problem was reported to me (Thanks Nigel) in regards to the batch file being locked if you right click the setup you can unlock it also unlock the generate.bat file I will merge both inside the setup.bat to avoid further issues.
