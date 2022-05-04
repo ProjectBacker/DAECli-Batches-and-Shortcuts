@@ -1,4 +1,12 @@
 @echo off
+for /f "delims=" %%a in ('where /R c:\users DeepArtEffectsCli.exe') do @set progpath="%%a"
+if not "%progpath%"=="" (
+    echo DeepArtEffectsCli.exe was found in %progpath% installation will continue.
+) else (
+    echo DeepArtEffectsCli.exe was not found ending batch file please make sure DeepArtEffectCli.exe is somewhere in the c:\users path.
+    pause
+    GOTO:eof
+)
 cls
 Echo Copying Icons to %HOMEDRIVE%%HOMEPATH%\Documents\DAECLI\Icons
 md %HOMEDRIVE%%HOMEPATH%\Documents\DAECLI
@@ -6,8 +14,7 @@ md %HOMEDRIVE%%HOMEPATH%\Documents\DAECLI\Icons
 Copy *.ico %HOMEDRIVE%%HOMEPATH%\Documents\DAECLI\Icons
 Echo Generating Batch files and Copying them to %HOMEDRIVE%%HOMEPATH%\Documents\DAECLI\Batch
 md %HOMEDRIVE%%HOMEPATH%\Documents\DAECLI\Batch
-@ECHO OFF
-for /f "delims=" %%a in ('where /R c:\users DeepArtEffectsCli.exe') do @set progpath="%%a"
+
 REM You can change the set settings here.
 set bokeh=0.0
 set chunksize=0
@@ -161,7 +168,5 @@ cscript CreateShortcut.vbs
 Echo Shortcut Created for Style - %%A in folder %HOMEDRIVE%%HOMEPATH%\Desktop\DAE-CLI
 del CreateShortcut.vbs
 )
-cls
 Echo installation complete please go to %HOMEDRIVE%%HOMEPATH%\Desktop\DAE-CLI drag a image to a shortcut to generate your desired styles.
-Echo Press any key to exit this window.
 Pause
