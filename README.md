@@ -30,4 +30,6 @@ Icons we're generated based on Images owned by (c)Deep Art Effects for interface
 
 IMPORTANT INFORMATION ON THIS BUILD THE DEEPARTEFFECTSCLI.EXE NEEDS TO BE INSIDE SOMEWHERE IN THE C:\USERS (Could be on your desktop) I will figure out a way to scan all the drives or give you a variable option to enter your own path for now if the Deeparteffectscli.exe is not in the path of c:\users the installation will stop.
 
-A problem was reported to me (Thanks Nigel) in regards to the batch file being locked if you right click the setup you can unlock it also unlock the generate.bat file I will merge both inside the setup.bat to avoid further issues. (Files have been patched the generate.bat is now intergrated inside the setup.bat so only one file to unlock.
+If you encounter an issue with Defender stopping you from editing or running setup.bat, you need to unblock it. Right-click, Select Properties and Check "Unblock" under security. See below.
+
+![Screenshot (9)](https://user-images.githubusercontent.com/46491278/166865782-26a50ac4-f86c-44cf-867e-e0b189a3835b.png)
